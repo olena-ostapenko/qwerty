@@ -1,0 +1,19 @@
+@media(max-width: 1320px){
+    main{
+        padding: 0 20px;
+    }
+    
+/*SECTION PRESENTATION */
+    .grid-3{
+        display: grid;
+        gap: 32px;
+    
+    }
+    .presentation-img {
+        background-position: center;
+        width: 240px;
+    }
+
+   
+
+}

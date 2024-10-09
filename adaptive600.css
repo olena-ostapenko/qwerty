@@ -1,0 +1,130 @@
+@media(max-width: 600px) {
+
+
+    main {
+        padding: 0 10px;
+    }
+    
+    /* FONT */
+    .page h1{
+        font-size: 20px;
+        margin-bottom: 14px;
+        
+    }
+    .page h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+        
+    }
+    .page p{
+        font-size:12px;
+        margin-bottom: 8px;
+        line-height: 16px;
+        
+    }
+    .info p {
+       font-size: 16px;
+    }
+
+    /*SECTION PRESENTATION */
+    .presentation {
+        padding: 0;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 20px 0px;
+        grid-template-areas: "content" "img1" "img2";
+    }
+
+    .presentation-img {
+        background-position: bottom;
+        height: 300px;
+    }
+
+    /*SECTION PRODUCTS */
+    .products-box {
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .coffee-conteiner.grid-3 {
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "text1"
+            "text2"
+            "img";
+
+    }
+
+    .apparat {
+        width: 100%;
+
+    }
+    .coffee-conteiner.grid-3 .photo-conteiner.apparat {
+        height: 300px;
+    }
+    /*SECTION CHOOSE */
+    .grid-2 {
+      
+        grid-template-columns: 1fr;
+ 
+    }
+    .bg1 {
+        height: 300px;
+    }
+    .two-box {
+        height: 100%;
+    }
+    /*SECTION RECEIVE */
+    .foam {
+        background-size: 180%;
+        height: 300px;
+       
+    }
+    .two-box .foam:first-child {
+        background-position-x: -425px;
+        background-position-y: 0px;
+    }
+    .two-box .foam:last-child {
+        background-position-x: -425px;
+        background-position-y: -300px;
+      
+    }
+    /* CONTACT*/
+    .geo,
+    .letter {
+        width:24px;
+        height: 24px;
+     
+    }
+    .phone {
+        width: 20px;
+        height: 20px;
+  
+    }
+   
+}
+@media(max-width: 590px){
+    .foam {
+       background-size: 200%;
+       background-position-x: 0;
+       
+     
+    }
+    .two-box .foam:first-child {
+        background-position-x: center;
+        background-position-y: top;
+    }
+    .two-box .foam:last-child {
+        background-position-x: center;
+        background-position-y: bottom;
+      
+    }
+    /* PAGE*/
+    .page {
+        padding: 14px;
+    }
+   
+}
