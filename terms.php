@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="adaptive1320.css">
-    <link rel="stylesheet" href="adaptive991.css">
-    <link rel="stylesheet" href="adaptive600.css">
-    <title>Document</title>
-</head>
-<body>
+
 <?php require "header.php";?>
     <main>
 
@@ -35,5 +24,3 @@
         </section>
     </main>
     <?php require "footer.php"?>
-</body>
-</html>
